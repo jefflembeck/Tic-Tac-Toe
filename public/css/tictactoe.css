@@ -1,10 +1,10 @@
 .space {
-  width: 350px;
+  width: 100%;
 }
 .space > div {
   border-width: 1px;
   border-color: #000;
-  width:        100px;
+  width:        32%;
   height:       100px;
   display:      inline-block;
   text-align:   center;
