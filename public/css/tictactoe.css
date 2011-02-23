@@ -1,0 +1,26 @@
+.space {
+  width: 350px;
+}
+.space > div {
+  border-width: 1px;
+  border-color: #000;
+  width:        100px;
+  height:       100px;
+  display:      inline-block;
+  text-align:   center;
+  vertical-align: middle;
+}
+.space-top {
+  border-bottom: solid;
+  border-left:   solid;
+  border-right:  solid;
+}
+.space-mid {
+  border-style: solid;
+}
+.space-bot {
+  border-top:   solid;
+  border-left:  solid;
+  border-right: solid;
+}
+
