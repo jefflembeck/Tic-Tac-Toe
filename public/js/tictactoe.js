@@ -14,6 +14,15 @@ $(document).ready(function(){
     checkWin();
   })
 
+  function catsGame() {
+    for(var i = 1; i < 10; i++) {
+      if ($("#" + i).text() === "") {
+        return false;
+      }
+    }
+    return true;
+  }
+
   // If text lines up
   function checkWin() {
     if ($('#1').text() === "X" && $('#2').text() === "X" && $('#3').text() === "X") {
@@ -48,6 +57,8 @@ $(document).ready(function(){
       alert("WE HAVE A WINNER!");
     } else if ($('#3').text() === "O" && $('#5').text() === "O" && $('#7').text() === "O") {
       alert("WE HAVE A WINNER!");
+    } else if (catsGame()) {
+      alert("Cat's Game. Bummer. ");
     }
   }
 })
