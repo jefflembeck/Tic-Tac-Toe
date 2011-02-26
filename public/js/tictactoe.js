@@ -6,9 +6,11 @@ $(document).ready(function(){
       if (xturn) {
         $(this).text("X");
         xturn = false;
+        $("p#inst").text("O's turn!")
       } else {
         $(this).text("O");
         xturn = true;
+        $("p#inst").text("X's turn!")
       }
     }
     checkWin();
@@ -27,6 +29,7 @@ $(document).ready(function(){
     for(var i = 1; i < 10; i++) {
       $("#" + i).text("");
     }
+    $("#inst").text("Click boxes to play!");
   }
 
   // If text lines up
