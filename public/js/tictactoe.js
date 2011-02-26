@@ -1,6 +1,6 @@
 $(document).ready(function(){
   var xturn = true;
-  $("div.space").delegate("div", "click", function(){
+  $("div.board").delegate("div", "click", function(){
     if ($(this).text() === "X" || $(this).text() === "O") {
     } else {
       if (xturn) {
