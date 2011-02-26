@@ -10,17 +10,15 @@
   text-align:   center;
   vertical-align: middle;
 }
-.space-top {
+.top {
   border-bottom: solid;
-  border-left:   solid;
-  border-right:  solid;
 }
-.space-mid {
-  border-style: solid;
-}
-.space-bot {
+.bottom {
   border-top:   solid;
-  border-left:  solid;
+}
+.left {
   border-right: solid;
 }
-
+.right {
+  border-left: solid;
+}
