@@ -2,7 +2,7 @@
   width: 100%;
 }
 .space > div {
-  border-width: 1px;
+  border-width: 3px;
   border-color: #000;
   width:        32%;
   height:       100px;
@@ -11,14 +11,14 @@
   vertical-align: middle;
 }
 .top {
-  border-bottom: solid;
+  border-bottom: groove;
 }
 .bottom {
-  border-top:   solid;
+  border-top:   groove;
 }
 .left {
-  border-right: solid;
+  border-right: groove;
 }
 .right {
-  border-left: solid;
+  border-left: groove;
 }
